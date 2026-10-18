@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Контакт – NextDestination</title>
+<meta name="description" content="Контактирајте не за понуда или резервација: телефон, е-пошта, адреса и контакт форма.">
+<link rel="canonical" href="https://nextdestination.mk/contact.html">
+<meta name="theme-color" content="#0ea5e9">
+<meta property="og:type" content="website"><meta property="og:site_name" content="NextDestination"><meta property="og:title" content="Контакт – NextDestination"><meta property="og:description" content="Контактирајте не за понуда или резервација: телефон, е-пошта, адреса и контакт форма."><meta property="og:url" content="https://nextdestination.mk/contact.html"><meta property="og:image" content="https://nextdestination.mk/img/logo.svg"><meta property="og:locale" content="mk_MK"><meta property="og:locale:alternate" content="en_GB"><meta property="og:locale:alternate" content="sq_AL">
+<link rel="icon" href="img/logo.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+<a class="skip" href="#main" data-i18n="skip"></a>
+<header class="nav"><div class="wrap nav-in">
+ <a href="index.html"><img src="img/logo.svg" alt="NextDestination" height="44"></a>
+ <button type="button" id="burger" aria-label="menu">☰</button>
+ <nav id="menu">
+  <a href="about.html" data-i18n="nav_about"></a><a href="services.html" data-i18n="nav_services"></a>
+  <a href="destinations.html" data-i18n="nav_dest"></a><a href="team.html" data-i18n="nav_team"></a>
+  <a href="blog.html" data-i18n="nav_blog"></a><a href="offers.html" class="hot" data-i18n="nav_offers"></a><a href="contact.html" data-i18n="nav_contact"></a>
+  <select id="lang" aria-label="Language"><option value="mk">МК</option><option value="en">EN</option><option value="sq">SQ</option></select>
+ </nav></div></header>
+<main id="main">
+
+<section class="banner"><div class="wrap"><h1 data-i18n="rs_h"></h1><p data-i18n="rs_sub"></p></div></section>
+<section class="alt"><div class="wrap sec"><div id="rs-ok" class="card" hidden></div>
+<div class="rs-grid" id="rs-main"><form id="rf" novalidate>
+<h3 data-i18n="rs_t1"></h3>
+<label for="rd" data-i18n="rs_dest"></label><select id="rd"></select>
+<div class="r2"><div><label for="ri" data-i18n="rs_in"></label><input type="date" id="ri"></div><div><label for="ro" data-i18n="rs_out"></label><input type="date" id="ro"></div></div><span class="ferr" id="e_dt" role="alert"></span>
+<div class="r3"><div><label for="ra" data-i18n="rs_ad"></label><input type="number" id="ra" min="1" max="10" value="2"></div><div><label for="rc" data-i18n="rs_ch"></label><input type="number" id="rc" min="0" max="6" value="0"></div><div><label for="rr" data-i18n="rs_rm"></label><input type="number" id="rr" min="1" max="5" value="1"></div></div><span class="ferr" id="e_px" role="alert"></span>
+<h3 data-i18n="rs_t2"></h3>
+<label for="rn" data-i18n="rs_name"></label><input id="rn" type="text" autocomplete="name"><span class="ferr" id="e_name" role="alert"></span>
+<label for="re" data-i18n="rs_email"></label><input id="re" type="email" autocomplete="email"><span class="ferr" id="e_mail" role="alert"></span>
+<label for="rp" data-i18n="rs_phone"></label><input id="rp" type="tel" autocomplete="tel"><span class="ferr" id="e_ph" role="alert"></span>
+<label for="rt" data-i18n="rs_note"></label><textarea id="rt" rows="3"></textarea>
+<h3 data-i18n="rs_t3"></h3>
+<label class="ck"><input type="checkbox" class="rx" value="ins"><span data-i18n="ex_ins"></span></label><label class="ck"><input type="checkbox" class="rx" value="trf"><span data-i18n="ex_trf"></span></label><label class="ck"><input type="checkbox" class="rx" value="gde"><span data-i18n="ex_gde"></span></label><label class="ck"><input type="checkbox" class="rx" value="lug"><span data-i18n="ex_lug"></span></label>
+<h3 data-i18n="rs_t4"></h3>
+<label class="ck"><input type="radio" name="pay" value="agency" checked><span data-i18n="pay1"></span></label><label class="ck"><input type="radio" name="pay" value="bank"><span data-i18n="pay2"></span></label><label class="ck"><input type="radio" name="pay" value="card"><span data-i18n="pay3"></span></label>
+<div class="promo-row"><input id="rpc" type="text" data-ph="rs_promo" autocomplete="off"><button type="button" class="btn ghost2" id="rpa" data-i18n="rs_apply"></button></div><small id="rpm"></small>
+<label class="ck"><input type="checkbox" id="rcn"><span data-i18n="rs_consent"></span></label><span class="ferr" id="e_co" role="alert"></span>
+<button type="submit" class="btn pulse" data-i18n="rs_go"></button></form>
+<aside class="card rs-sum"><div class="rs-img" id="rs-img" data-img="rome" role="img"></div><h3 id="rs-t"></h3><div id="rs-l" aria-live="polite"></div></aside></div></div></section>
+<section class="wrap sec"><h2 data-i18n="rs_my"></h2><div class="cards" id="rs-list"></div></section>
+</main>
+<footer><div class="wrap ft">
+<div><img src="img/logo.svg" alt="NextDestination" height="40"><p data-i18n="ft_about"></p><p class="lic" data-i18n="ft_lic"></p></div>
+<div><h4 data-i18n="ft_nav"></h4><a href="about.html" data-i18n="nav_about"></a><a href="services.html" data-i18n="nav_services"></a><a href="destinations.html" data-i18n="nav_dest"></a><a href="team.html" data-i18n="nav_team"></a><a href="blog.html" data-i18n="nav_blog"></a><a href="offers.html" data-i18n="nav_offers"></a><a href="reserve.html" data-i18n="nav_reserve"></a><a href="contact.html" data-i18n="nav_contact"></a></div>
+<div><h4 data-i18n="cont_h"></h4><p>📍 <span data-i18n="addr"></span></p><p>📞 <a href="tel:+3892123456">+389 2 123 456</a></p><p>✉️ <a href="mailto:info@nextdestination.mk">info@nextdestination.mk</a></p><p>🕘 <span data-i18n="hours"></span></p></div>
+<div><h4 data-i18n="nl_h"></h4><form id="nl" novalidate><label class="vh" for="nle" data-i18n="nl_ph"></label><input id="nle" type="email" autocomplete="email" data-ph="nl_ph"><label class="chk"><input type="checkbox" id="nlc"><span data-i18n="nl_consent"></span></label><button type="submit" class="btn" data-i18n="nl_btn"></button><p id="nls" role="status" aria-live="polite"></p></form>
+<p class="soc"><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok</a></p></div>
+<div class="fb"><span>© 2026 NextDestination. <span data-i18n="rights"></span></span><span><a href="privacy.html" data-i18n="l_priv"></a> · <a href="terms.html" data-i18n="l_terms"></a> · <a href="#" id="cookieLink" data-i18n="c_manage"></a></span></div>
+</div></footer>
+
+<div id="cookie" role="dialog" aria-label="Cookies" hidden><p><span data-i18n="c_text"></span> <a href="privacy.html" data-i18n="c_pol"></a></p>
+ <button type="button" class="btn" id="acc" data-i18n="c_acc"></button><button type="button" class="btn ghost" id="rej" data-i18n="c_rej"></button><button class="btn ghost" id="cset" type="button" data-i18n="c_set"></button></div>
+<script src="js/i18n.js"></script><script src="js/dest.js"></script><script src="js/main.js"></script><script src="js/routes.js"></script><script src="js/offers.js"></script><script src="js/more.js"></script><script src="js/all.js"></script><script src="js/reserve.js"></script>
+<script src="js/extra.js"></script><script src="js/photos.js"></script>
+<script src="js/motion.js"></script>
+</body></html>

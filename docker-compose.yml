@@ -1,0 +1,7 @@
+services:
+  web:
+    image: nginx:alpine
+    cpus: 0.5
+    mem_limit: 256m
+    volumes:
+      - .stack-data/site:/usr/share/nginx/html:ro

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Контакт – NextDestination</title>
+<meta name="description" content="Контактирајте не за понуда или резервација: телефон, е-пошта, адреса и контакт форма.">
+<link rel="canonical" href="https://nextdestination.mk/contact.html">
+<meta name="theme-color" content="#0ea5e9">
+<meta property="og:type" content="website"><meta property="og:site_name" content="NextDestination"><meta property="og:title" content="Контакт – NextDestination"><meta property="og:description" content="Контактирајте не за понуда или резервација: телефон, е-пошта, адреса и контакт форма."><meta property="og:url" content="https://nextdestination.mk/contact.html"><meta property="og:image" content="https://nextdestination.mk/img/logo.svg"><meta property="og:locale" content="mk_MK"><meta property="og:locale:alternate" content="en_GB"><meta property="og:locale:alternate" content="sq_AL">
+<link rel="icon" href="img/logo.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+<a class="skip" href="#main" data-i18n="skip"></a>
+<header class="nav"><div class="wrap nav-in">
+ <a href="index.html"><img src="img/logo.svg" alt="NextDestination" height="44"></a>
+ <button type="button" id="burger" aria-label="menu">☰</button>
+ <nav id="menu">
+  <a href="about.html" data-i18n="nav_about"></a><a href="services.html" data-i18n="nav_services"></a>
+  <a href="destinations.html" data-i18n="nav_dest"></a><a href="team.html" data-i18n="nav_team"></a>
+  <a href="blog.html" data-i18n="nav_blog"></a><a href="offers.html" class="hot" data-i18n="nav_offers"></a><a href="contact.html" class="active" data-i18n="nav_contact"></a>
+  <select id="lang" aria-label="Language"><option value="mk">МК</option><option value="en">EN</option><option value="sq">SQ</option></select>
+ </nav></div></header>
+<main id="main">
+
+<section class="banner"><div class="wrap"><h1 data-i18n="nav_contact"></h1></div></section><section id="contact" class="alt"><div class="wrap sec">
+ <div class="grid2">
+  <form id="form" novalidate>
+   <label for="name" data-i18n="f_name"></label><input id="name" type="text" autocomplete="name" required><span class="ferr" id="e_name"></span>
+   <label for="email" data-i18n="f_email"></label><input id="email" type="email" autocomplete="email" required><span class="ferr" id="e_email"></span>
+   <label for="phone" data-i18n="f_phone"></label><input id="phone" type="tel" autocomplete="tel">
+   <label for="topic" data-i18n="f_topic"></label><select id="topic"><option data-i18n="o1"></option><option data-i18n="o2"></option><option data-i18n="o3"></option></select>
+   <label for="msg" data-i18n="f_msg"></label><textarea id="msg" rows="5" maxlength="1000" required></textarea><span class="ferr" id="e_msg"></span>
+   <label class="chk"><input type="checkbox" id="consent"><span><span data-i18n="f_consent"></span> <a href="privacy.html" data-i18n="l_priv"></a></span></label><span class="ferr" id="e_consent"></span>
+   <input type="text" id="hp" name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+   <button type="submit" class="btn" data-i18n="f_send"></button><p id="status" role="status" aria-live="polite"></p>
+  </form>
+  <div class="info"><p>📍 <span data-i18n="addr"></span></p><p>📞 +389 2 123 456</p><p>✉️ info@nextdestination.mk</p><p>🕘 <span data-i18n="hours"></span></p>
+   <iframe title="map" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=21.42%2C41.99%2C21.46%2C42.01&layer=mapnik"></iframe></div>
+ </div></div></section></main>
+<footer><div class="wrap ft">
+<div><img src="img/logo.svg" alt="NextDestination" height="40"><p data-i18n="ft_about"></p><p class="lic" data-i18n="ft_lic"></p></div>
+<div><h4 data-i18n="ft_nav"></h4><a href="about.html" data-i18n="nav_about"></a><a href="services.html" data-i18n="nav_services"></a><a href="destinations.html" data-i18n="nav_dest"></a><a href="team.html" data-i18n="nav_team"></a><a href="blog.html" data-i18n="nav_blog"></a><a href="offers.html" data-i18n="nav_offers"></a><a href="reserve.html" data-i18n="nav_reserve"></a><a href="contact.html" data-i18n="nav_contact"></a></div>
+<div><h4 data-i18n="cont_h"></h4><p>📍 <span data-i18n="addr"></span></p><p>📞 <a href="tel:+3892123456">+389 2 123 456</a></p><p>✉️ <a href="mailto:info@nextdestination.mk">info@nextdestination.mk</a></p><p>🕘 <span data-i18n="hours"></span></p></div>
+<div><h4 data-i18n="nl_h"></h4><form id="nl" novalidate><label class="vh" for="nle" data-i18n="nl_ph"></label><input id="nle" type="email" autocomplete="email" data-ph="nl_ph"><label class="chk"><input type="checkbox" id="nlc"><span data-i18n="nl_consent"></span></label><button type="submit" class="btn" data-i18n="nl_btn"></button><p id="nls" role="status" aria-live="polite"></p></form>
+<p class="soc"><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok</a></p></div>
+<div class="fb"><span>© 2026 NextDestination. <span data-i18n="rights"></span></span><span><a href="privacy.html" data-i18n="l_priv"></a> · <a href="terms.html" data-i18n="l_terms"></a> · <a href="#" id="cookieLink" data-i18n="c_manage"></a></span></div>
+</div></footer>
+
+<div id="cookie" role="dialog" aria-label="Cookies" hidden><p><span data-i18n="c_text"></span> <a href="privacy.html" data-i18n="c_pol"></a></p>
+ <button type="button" class="btn" id="acc" data-i18n="c_acc"></button><button type="button" class="btn ghost" id="rej" data-i18n="c_rej"></button><button class="btn ghost" id="cset" type="button" data-i18n="c_set"></button></div>
+<script src="js/i18n.js"></script><script src="js/dest.js"></script><script src="js/main.js"></script>
+<script src="js/extra.js"></script>
+<script src="js/motion.js"></script>
+</body></html>

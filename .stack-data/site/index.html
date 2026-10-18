@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NextDestination – Туристичка агенција</title>
+<meta name="description" content="NextDestination – патувања, аранжмани и неповторливи искуства.">
+<link rel="canonical" href="https://nextdestination.mk/">
+<meta name="theme-color" content="#0ea5e9">
+<meta property="og:type" content="website"><meta property="og:site_name" content="NextDestination"><meta property="og:title" content="NextDestination – Туристичка агенција"><meta property="og:description" content="NextDestination – патувања, аранжмани и неповторливи искуства."><meta property="og:url" content="https://nextdestination.mk/"><meta property="og:image" content="https://nextdestination.mk/img/logo.svg"><meta property="og:locale" content="mk_MK"><meta property="og:locale:alternate" content="en_GB"><meta property="og:locale:alternate" content="sq_AL">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TravelAgency","name":"NextDestination","url":"https://nextdestination.mk/","logo":"https://nextdestination.mk/img/logo.svg","telephone":"+389 2 123 456","email":"info@nextdestination.mk","foundingDate":"2014","address":{"@type":"PostalAddress","streetAddress":"ул. Македонија 10","addressLocality":"Скопје","postalCode":"1000","addressCountry":"MK"},"openingHours":"Mo-Fr 09:00-17:00","sameAs":["https://www.facebook.com/","https://www.instagram.com/"]}</script>
+<link rel="icon" href="img/logo.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="index">
+<a class="skip" href="#main" data-i18n="skip"></a>
+<header class="nav"><div class="wrap nav-in">
+ <a href="index.html"><img src="img/logo.svg" alt="NextDestination" height="44"></a>
+ <button type="button" id="burger" aria-label="menu">☰</button>
+ <nav id="menu">
+  <a href="about.html" data-i18n="nav_about"></a><a href="services.html" data-i18n="nav_services"></a>
+  <a href="destinations.html" data-i18n="nav_dest"></a><a href="team.html" data-i18n="nav_team"></a>
+  <a href="blog.html" data-i18n="nav_blog"></a><a href="offers.html" class="hot" data-i18n="nav_offers"></a><a href="contact.html" data-i18n="nav_contact"></a>
+  <select id="lang" aria-label="Language"><option value="mk">МК</option><option value="en">EN</option><option value="sq">SQ</option></select>
+ </nav></div></header>
+<main id="main">
+
+<section id="home" class="hero"><div class="wrap">
+ <h1 data-i18n="hero_title"></h1><p data-i18n="hero_sub"></p>
+ <a class="btn" href="destinations.html" data-i18n="hero_cta"></a>
+</div></section>
+
+<section id="about" class="wrap sec"><h2 data-i18n="about_h"></h2>
+ <div class="grid2"><p data-i18n="about_p"></p>
+ <ul class="stats"><li><b>12+</b><span data-i18n="st1"></span></li><li><b>5000+</b><span data-i18n="st2"></span></li><li><b>40+</b><span data-i18n="st3"></span></li></ul></div>
+</section>
+
+<div class="wrap"><form id="sf" class="sbar" autocomplete="off" novalidate>
+<label class="f dd"><span data-i18n="s_dest"></span><input id="sd" type="text" data-ph="s_dph" autocomplete="off" role="combobox" aria-autocomplete="list" aria-controls="ac"><ul id="ac"></ul></label>
+<label class="f"><span data-i18n="s_in"></span><input type="date" id="si"></label>
+<label class="f"><span data-i18n="s_out"></span><input type="date" id="so"></label>
+<div class="f gp"><span data-i18n="s_gst"></span><button type="button" id="gb"></button><div id="gpop" hidden>
+<div class="r"><span data-i18n="adults"></span><div><button type="button" data-g="a" data-d="-1">−</button><b id="va"></b><button type="button" data-g="a" data-d="1">+</button></div></div>
+<div class="r"><span data-i18n="children"></span><div><button type="button" data-g="c" data-d="-1">−</button><b id="vc"></b><button type="button" data-g="c" data-d="1">+</button></div></div>
+<div class="r"><span data-i18n="rooms"></span><div><button type="button" data-g="r" data-d="-1">−</button><b id="vr"></b><button type="button" data-g="r" data-d="1">+</button></div></div></div></div>
+<button type="submit" class="btn" data-i18n="s_btn"></button></form><div id="sres"></div></div>
+<div class="wrap"><a class="promo" href="offers.html" data-i18n="ny_b"></a></div>
+<section id="destinations" class="wrap sec"><h2 data-i18n="dest_h"></h2>
+ <div class="cards">
+  <article class="card dest d1" data-dest="santorini" tabindex="0" role="button"><div class="ov"><h3>Santorini, Greece</h3><p data-i18n="d1_p"></p><b>€459</b><div class="acts"><span class="btn ghost2" data-i18n="details"></span><a class="btn pulse" href="reserve.html?d=santorini" onclick="event.stopPropagation()" data-i18n="book"></a></div></div></article>
+  <article class="card dest d2" data-dest="istanbul" tabindex="0" role="button"><div class="ov"><h3>Istanbul, Türkiye</h3><p data-i18n="d2_p"></p><b>€199</b><div class="acts"><span class="btn ghost2" data-i18n="details"></span><a class="btn pulse" href="reserve.html?d=istanbul" onclick="event.stopPropagation()" data-i18n="book"></a></div></div></article>
+  <article class="card dest d3" data-dest="rome" tabindex="0" role="button"><div class="ov"><h3>Rome, Italy</h3><p data-i18n="d3_p"></p><b>€349</b><div class="acts"><span class="btn ghost2" data-i18n="details"></span><a class="btn pulse" href="reserve.html?d=rome" onclick="event.stopPropagation()" data-i18n="book"></a></div></div></article>
+  <article class="card dest d4" data-dest="ohrid" tabindex="0" role="button"><div class="ov"><h3>Ohrid, North Macedonia</h3><p data-i18n="d4_p"></p><b>€89</b><div class="acts"><span class="btn ghost2" data-i18n="details"></span><a class="btn pulse" href="reserve.html?d=ohrid" onclick="event.stopPropagation()" data-i18n="book"></a></div></div></article>
+ </div></section><div class="wrap" style="text-align:center;padding-bottom:60px"><a class="btn" href="destinations.html" data-i18n="hero_cta"></a></div><section id="reviews" class="alt"><div class="wrap sec"><h2 id="rvh"></h2><div class="cards" id="revs"></div></div></section>
+<section id="faq" class="wrap sec"><h2 id="faqh"></h2><div id="faqs" class="faqs"></div></section>
+</main>
+<footer><div class="wrap ft">
+<div><img src="img/logo.svg" alt="NextDestination" height="40"><p data-i18n="ft_about"></p><p class="lic" data-i18n="ft_lic"></p></div>
+<div><h4 data-i18n="ft_nav"></h4><a href="about.html" data-i18n="nav_about"></a><a href="services.html" data-i18n="nav_services"></a><a href="destinations.html" data-i18n="nav_dest"></a><a href="team.html" data-i18n="nav_team"></a><a href="blog.html" data-i18n="nav_blog"></a><a href="offers.html" data-i18n="nav_offers"></a><a href="reserve.html" data-i18n="nav_reserve"></a><a href="contact.html" data-i18n="nav_contact"></a></div>
+<div><h4 data-i18n="cont_h"></h4><p>📍 <span data-i18n="addr"></span></p><p>📞 <a href="tel:+3892123456">+389 2 123 456</a></p><p>✉️ <a href="mailto:info@nextdestination.mk">info@nextdestination.mk</a></p><p>🕘 <span data-i18n="hours"></span></p></div>
+<div><h4 data-i18n="nl_h"></h4><form id="nl" novalidate><label class="vh" for="nle" data-i18n="nl_ph"></label><input id="nle" type="email" autocomplete="email" data-ph="nl_ph"><label class="chk"><input type="checkbox" id="nlc"><span data-i18n="nl_consent"></span></label><button type="submit" class="btn" data-i18n="nl_btn"></button><p id="nls" role="status" aria-live="polite"></p></form>
+<p class="soc"><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok</a></p></div>
+<div class="fb"><span>© 2026 NextDestination. <span data-i18n="rights"></span></span><span><a href="privacy.html" data-i18n="l_priv"></a> · <a href="terms.html" data-i18n="l_terms"></a> · <a href="#" id="cookieLink" data-i18n="c_manage"></a></span></div>
+</div></footer>
+
+<div id="cookie" role="dialog" aria-label="Cookies" hidden><p><span data-i18n="c_text"></span> <a href="privacy.html" data-i18n="c_pol"></a></p>
+ <button type="button" class="btn" id="acc" data-i18n="c_acc"></button><button type="button" class="btn ghost" id="rej" data-i18n="c_rej"></button><button class="btn ghost" id="cset" type="button" data-i18n="c_set"></button></div>
+<script src="js/i18n.js"></script><script src="js/dest.js"></script><script src="js/main.js"></script><script src="js/routes.js"></script><script src="js/offers.js"></script><script src="js/more.js"></script><script src="js/all.js"></script><script src="js/search.js"></script><script src="js/extra.js"></script><script src="js/photos.js"></script>
+<script src="js/motion.js"></script>
+</body></html>
